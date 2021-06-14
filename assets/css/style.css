@@ -5568,6 +5568,15 @@ a{
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
+	.sk-functions-header{
+		text-align:center !important;
+	}
+	.sk-services-header{
+		text-align:center !important;
+	}
+	.sk-about-header{
+		text-align:center !important;
+	}
 	.sk-scroll-btn{
 		position: fixed;
 		bottom: 160px !important;
