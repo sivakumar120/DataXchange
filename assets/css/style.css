@@ -6900,6 +6900,30 @@ margin: 0 !important;
 .sk-cnt-btn{
 	margin-right: 0 !important;
 }
+.carousel .item {
+	height: 250px;
+  }
+  
+  .item img {
+	  position: absolute;
+	  object-fit:cover;
+	  top: 0;
+	  left: 0;
+	  min-height: 250px;
+  }
+  .sk-functions-header{
+	  padding-top: 60px ;
+  }
+  .sk-functions{
+	  margin-bottom: 0 !important;
+  }
+  .sk-about-header {
+	  padding-top: 42px !important;
+	  margin-left: 0 !important;
+  }
+  .sk-team-card-wrapper {
+	  padding-bottom: 5rem !important;
+  }
 
 }
 
