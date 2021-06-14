@@ -5573,6 +5573,7 @@ a{
 	}
 	.sk-services-header{
 		text-align:center !important;
+		padding-bottom:0 !important;
 	}
 	.sk-about-header{
 		text-align:center !important;
