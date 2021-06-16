@@ -108,6 +108,7 @@ textarea {
 .g-w-80px{ width: 80px !important; }
 .g-w-100px{ width: 100px !important; }
 .g-w-200px{ width: 200px !important; }
+.g-w-250px{ width: 250px !important; }
 .g-w-300px{ width: 300px !important; }
 .g-w-400px{ width: 400px !important; }
 .g-w-500px{ width: 500px !important; }
@@ -6978,7 +6979,7 @@ padding-bottom: 3.5rem !important;
 
   .sk-model-content-1{
 
-	background: url(/assets/img/data-banner.png)!important;
+	background: url(/assets/img/data-vision-bg.png)!important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	background-position:  right 50%  !important;
@@ -7106,9 +7107,9 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
-	font-size: 25px;
-	background-color: rgb(128, 117, 117) !important;
-	color: white;
+	font-size: 17px;
+	background-color:#E2E2E2AB !important;
+	color: #292662;
 	opacity: 90%;
 	padding: 10px 10px;
 	border-radius: 100%;
