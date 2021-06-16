@@ -5236,6 +5236,8 @@ textarea {
 .sk-h-73px{height: 73px;}
 .sk-h-250px{height: 250px;}
 .sk-h-150px{height: 150px;}
+.sk-h-200px{height:200px;}
+
 
 .sk-txt-right{text-align:right}
 /*font-size*/
@@ -5347,24 +5349,47 @@ textarea {
  height:21px;
 }
 
-.sk-goals-img{
 
-	position: absolute;
-	top: 13%;
-	left: 33%;
-}
 .sk-goals-mission-logo{
 
 	position: absolute;
-	top: 13%;
-	left: 35%;
+	top: 15%;
+	left: 38%;
+}
+.sk-goals-values-logo{
+ 
+	position: absolute;
+	top: 21%;
+	left: 37%;
+
+}
+.sk-goals-vision-logo{
+ 
+	position: absolute;
+	top: 21%;
+	left: 34%;
+
 }
 
-.sk-goals-cont{
+.sk-goals-cont-1{
 
 	position: absolute;
-	top: 60%;
-	left: 26%;
+	top: 55%;
+	left: 25%;
+
+}
+.sk-goals-cont-2{
+
+	position: absolute;
+	top: 55%;
+	left: 30%;
+
+}
+.sk-goals-cont-3{
+
+	position: absolute;
+	top: 55%;
+	left: 28%;
 
 }
 .sk-toggle-btn .bar{
@@ -5430,6 +5455,7 @@ a{
     width: 100% !important;
  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) ;
 	padding: 10px 10px;
+	
 }
 
 .sticky {
@@ -5574,6 +5600,58 @@ a{
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
+	
+.sk-goals-mission-logo{
+
+	position: absolute;
+	top: 15%;
+	left: 38%;
+	width: 50px !important;
+}
+.sk-goals-values-logo{
+ 
+	position: absolute;
+	top: 20% !important;
+	left: 34% !important;
+	width: 50px !important;
+
+}
+.sk-goals-vision-logo{
+ 
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	width: 50px !important;
+
+}
+
+.sk-goals-cont-1{
+
+	position: absolute;
+	top: 55%;
+	left: 25%;
+	font-size: 1rem !important;
+	line-height: 1.6rem !important;
+    
+}
+.sk-goals-cont-2{
+
+	position: absolute;
+	top: 55%;
+	left: 27% !important;
+	font-size: 1rem !important;
+	line-height: 1.6rem !important;
+
+}
+.sk-goals-cont-3{
+
+	position: absolute;
+	top: 55%;
+	left: 26% !important;
+	font-size: 1rem !important;
+	line-height: 1.6rem !important;
+
+}
 	.sk-functions-header{
 		text-align:center !important;
 		
@@ -5818,6 +5896,58 @@ a{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
+		
+.sk-goals-mission-logo{
+
+	position: absolute;
+	top: 15%;
+	left: 38%;
+	width: 50px !important;
+}
+.sk-goals-values-logo{
+ 
+	position: absolute;
+	top: 20% !important;
+	left: 34% !important;
+	width: 50px !important;
+
+}
+.sk-goals-vision-logo{
+ 
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	width: 50px !important;
+
+}
+
+.sk-goals-cont-1{
+
+	position: absolute;
+	top: 55%;
+	left: 25%;
+	font-size: 1rem !important;
+	line-height: 1.6rem !important;
+    
+}
+.sk-goals-cont-2{
+
+	position: absolute;
+	top: 55%;
+	left: 27% !important;
+	font-size: 1rem !important;
+	line-height: 1.6rem !important;
+
+}
+.sk-goals-cont-3{
+
+	position: absolute;
+	top: 55%;
+	left: 26% !important;
+	font-size: 1rem !important;
+	line-height: 1.6rem !important;
+
+}
 	.sk-form-wrap{
 		display: grid;
 		grid-template-columns: 1fr  !important;
@@ -5949,7 +6079,7 @@ a{
 	}
 	.sk-functions-header {
 		text-align: center;
-		margin-top: 3.8rem !important;
+		margin-top: 4.5rem !important;
 	}
 .sk-carousel-content-header{
 	font-size: 3.8rem !important;
@@ -6040,7 +6170,7 @@ a{
 }
 
 .sk-function-title-2{
-	margin-bottom: 0 !important;
+	margin-bottom: 45px !important;
 }
 
 
@@ -6114,7 +6244,61 @@ a{
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
+		
+.sk-goals-mission-logo{
 
+	position: absolute;
+	top: 15%;
+	left: 38%;
+	width: 40px !important;
+}
+.sk-goals-values-logo{
+ 
+	position: absolute;
+	top: 20% !important;
+	left: 34% !important;
+	width: 40px !important;
+
+}
+.sk-goals-vision-logo{
+ 
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	width: 40px !important;
+
+}
+
+.sk-goals-cont-1{
+
+	position: absolute;
+	top: 55%;
+	left: 25%;
+	font-size: 0.8rem !important;
+	line-height: 1.6rem !important;
+    
+}
+.sk-goals-cont-2{
+
+	position: absolute;
+	top: 55%;
+	left: 27% !important;
+	font-size: 0.8rem !important;
+	line-height: 1.6rem !important;
+
+}
+.sk-goals-cont-3{
+
+	position: absolute;
+	top: 55%;
+	left: 29% !important;
+	font-size: 0.8rem !important;
+	line-height: 1.6rem !important;
+
+}
+    .sk-function-desc {
+		margin-bottom: 0px !important;
+	}
 	.sk-scroll-btn{
 		position: fixed;
 		bottom: 100px !important;
@@ -6274,7 +6458,7 @@ a{
 	}
 	.sk-functions-header {
 		text-align: center;
-		margin-top: 3.8rem !important;
+		margin-top: 4.5rem !important;
 	}
 	.sk-hamburger{
 		display: block !important;
@@ -6476,6 +6660,58 @@ border-bottom-left-radius: none !important;
 	}
 }
 @media only screen and (max-width: 480px){
+			
+.sk-goals-mission-logo{
+
+	position: absolute;
+	top: 15%;
+	left: 38%;
+	width: 25px !important;
+}
+.sk-goals-values-logo{
+ 
+	position: absolute;
+	top: 20% !important;
+	left: 38% !important;
+	width: 25px !important;
+
+}
+.sk-goals-vision-logo{
+ 
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	width: 25px !important;
+
+}
+
+.sk-goals-cont-1{
+
+	position: absolute;
+	top: 55%;
+	left: 21%;
+	font-size: 0.7rem !important;
+	line-height: 1.3rem !important;
+    
+}
+.sk-goals-cont-2{
+
+	position: absolute;
+	top: 55%;
+	left: 27% !important;
+	font-size: 0.7rem !important;
+	line-height: 1.3rem !important;
+
+}
+.sk-goals-cont-3{
+
+	position: absolute;
+	top: 55%;
+	left: 25% !important;
+	font-size: 0.7rem !important;
+	line-height: 1.3rem !important;
+
+}
 	.sk-vision-content{
 		display: inline-block !important;
 		font-size: 0.7rem !important;
@@ -7134,7 +7370,7 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	border-radius: 6px;
 }
 .sk-logo{
-	transition: 0.4s;
+	transition: ease-in-out 0.5s;
 }
 
-
+.sk-rotate-hvr:hover{transform: rotate(360deg); transition: .4s;}
