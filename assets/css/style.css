@@ -108,7 +108,7 @@ textarea {
 .g-w-80px{ width: 80px !important; }
 .g-w-100px{ width: 100px !important; }
 .g-w-200px{ width: 200px !important; }
-.g-w-250px{ width: 250px !important; }
+.g-w-250px{ width: 250px ; }
 .g-w-300px{ width: 300px !important; }
 .g-w-400px{ width: 400px !important; }
 .g-w-500px{ width: 500px !important; }
@@ -5216,6 +5216,7 @@ textarea {
 .sk-w-55px{width: 55px;}
 .sk-w-320px{width: 320px;}
 .sk-w-180px{width: 180px;}
+.sk-w-200px{width:200px;}
 .sk-maxw-280px{max-width: 280px;}
 .sk-w-122px{width:122px}
 /* width*/
@@ -5273,6 +5274,7 @@ textarea {
 .sk-pt-108px{padding-top: 6.7rem;}
 .sk-mb-142px{margin-bottom: 8.8rem;}
 .sk-pb-117px{padding-bottom: 7.1rem;}
+.sk-p-16px{padding: 16px;}
 
 
 /*border*/
@@ -5426,7 +5428,8 @@ a{
     background-color: white;
     opacity: 95%;
     width: 100% !important;
-	box-shadow: 0px 15px 10px -20px rgb(41, 34, 34);
+ box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) ;
+	padding: 10px 10px;
 }
 
 .sticky {
@@ -5690,6 +5693,7 @@ a{
 	}
 	.sk-vision-content{
 		display: inline-block !important;
+		font-size: 0.8rem !important;
 	}
 	.sk-body-wrap{
 		flex-direction: column !important;
@@ -5936,7 +5940,7 @@ a{
 		width: 50% !important;
 	}
 	.carousel{
-		top: 92px !important;
+		top: 99px !important;
 	}
 	.sk-carousel-overlay{
 		position: absolute !important;
@@ -6103,6 +6107,10 @@ a{
 	.sk-team-content-row {
 		padding-top: 180px;
 	}
+	.sk-vision-content{
+		display: inline-block !important;
+		font-size: 0.8rem !important;
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
@@ -6142,6 +6150,10 @@ a{
 		font-size: 1rem !important;
 	}
 	
+	.sk-vision-content{
+		display: inline-block !important;
+		font-size: 0.7rem !important;
+	}
 .gallery-item-3 {
  
 
@@ -6223,12 +6235,7 @@ a{
 	.sk-values img{
 		width: 70px !important;
 	}
-	.sk-vision-content{
-		display: inline-block !important;
-		font-size: 1.4rem !important;
-		line-height: 2rem !important;
-		padding-right: 25px !important;
-	}
+
 	.sk-vision-model-container{
 		width: 80% !important;
 		margin: auto !important;
@@ -6258,11 +6265,11 @@ a{
 		margin: auto !important;
 	}
 	.carousel{
-		top: 55px !important;
+		top: 88px !important;
 	}
 	.sk-carousel-overlay{
 		position: absolute;
-		top: 20% !important;
+		top: 18% !important;
 		z-index: 10;
 	}
 	.sk-functions-header {
@@ -6469,6 +6476,13 @@ border-bottom-left-radius: none !important;
 	}
 }
 @media only screen and (max-width: 480px){
+	.sk-vision-content{
+		display: inline-block !important;
+		font-size: 0.7rem !important;
+		padding-left: 1.2rem !important;
+		padding-right: 1.2rem !important;
+		line-height: 1.2rem !important;
+	}
 	.sk-functions-header {
 		font-size: 2.2rem !important;
 		line-height: 2.8rem !important;
@@ -6636,13 +6650,6 @@ border-bottom-left-radius: none !important;
 		width: 100px !important;
 	 
 	}
-	.sk-vision-content{
-		display: inline-block !important;
-		font-size: 1.2rem !important;
-		line-height: 1.6rem !important;
-		padding-right: 25px !important;
-		padding-left: 20px !important;
-	}
 	.sk-vision-model-container{
 		width: 80% !important;
 		margin: auto !important;
@@ -6688,7 +6695,7 @@ border-bottom-left-radius: none !important;
 	   text-align: center !important;
    }
 	.carousel{
-		top: 56px !important;
+		top: 59px !important;
 	}
 	.sk-logo{
 		width:100px !important;
@@ -6703,9 +6710,6 @@ border-bottom-left-radius: none !important;
 	}
 	nav ul .show{
 		display: flex !important;
-	}
-	.sk-logo{
-		width:100px !important;
 	}
 .sk-carousel-content-header{
 	font-size: 30px !important;
@@ -7101,6 +7105,7 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	position: fixed;
 	top: 0;
 	width: 100%;
+	transition: 0.4s;
   }
 
 .sk-scroll-btn{
@@ -7128,4 +7133,8 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	width: 288px;
 	border-radius: 6px;
 }
+.sk-logo{
+	transition: 0.4s;
+}
+
 

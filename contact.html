@@ -36,14 +36,14 @@
                       <a href="./index.html"><img src="./assets/img/DataXchange Logo.svg" class=" g-w-250px  sk-logo g-sm-m-09" alt="img"></a>
                         <button class="sk-hamburger"><i class="fa fa-bars" aria-hidden="true"></i></button>
                         <ul class=" sk-nav-links sk-disp-flex sk-justify-center g-pl-0 g-mb-0">
-                            <li class="g-list-type">
-                                <a href="#services" class=" g-m-10 sk-align-self g-fs-10 g-sm-m-10 g-p-10 g-lh-16 sk-lato-semibold  g-disp-inlblock sk-blue-clr2">Services</a>
+                            <li class="g-list-type sk-align-self">
+                                <a href="#services" class=" g-m-10 sk-align-self g-fs-10 g-sm-m-10  g-lh-16 sk-lato-semibold  g-disp-inlblock sk-blue-clr2">Services</a>
                             </li>
-                            <li class="g-list-type">
-                                <a href="#about-us" class=" g-fs-10 sk-align-self g-m-10 g-lh-16 g-sm-m-10 g-p-10 sk-lato-semibold g-disp-inlblock sk-blue-clr2 g-cursor-pointer">About Us</a>
+                            <li class="g-list-type sk-align-self">
+                                <a href="#about-us" class=" g-fs-10 sk-align-self g-m-10 g-lh-16 g-sm-m-10  sk-lato-semibold g-disp-inlblock sk-blue-clr2 g-cursor-pointer">About Us</a>
                             </li>
-                            <li class="g-list-type">
-                                <a href="./contact.html" id="about"  class="sk-cnt-btns sk-align-self g-ml-10 g-mt-15 g-fs-10 g-mr-10  g-lh-16 g-disp-inlblock g-pt-06 g-pb-06  g-pl-15 g-pr-15 g-cursor-pointer sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px sk-hvr sk-focus">contact Us</a>
+                            <li class="g-list-type sk-align-self">
+                                <a href="./contact.html" id="about"  class="sk-cnt-btns sk-align-self g-ml-10  g-fs-10 g-mr-10  g-lh-16 g-disp-inlblock g-pt-06 g-pb-06  g-pl-15 g-pr-15 g-cursor-pointer sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px sk-hvr sk-focus">contact Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -186,7 +186,10 @@
      })
     
 /*sticky*/
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+    myFunction()
+    scrollFunction()
+};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -196,6 +199,16 @@ function myFunction() {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
+  }
+}
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.padding = "0px 0px";
+    document.querySelector(".sk-logo").style.width = "150px";
+  } else {
+    document.getElementById("navbar").style.padding = "10px 10px";
+    document.querySelector(".sk-logo").style.width = "200px";
   }
 }
 /*scroll button*/
