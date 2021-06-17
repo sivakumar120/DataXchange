@@ -5189,6 +5189,7 @@ textarea {
 
 .sk-lightgrey-bg{background-color: #f6efef !important;}
 .sk-blue-bg{background-color: #292662 !important ;}
+.sk-blue-bg1{background-color: #2D2C73 !important ;}
 .sk-grey-bg{background-color: #7f7da1 !important ;}
 .sk-red-bg{background-color:  #C9203F !important ;}
 .sk-fs-16{font-size: 1.6rem ;}
@@ -5239,7 +5240,7 @@ textarea {
 .sk-h-200px{height:200px;}
 
 
-.sk-txt-right{text-align:right}
+.sk-txt-right{text-align:;}
 /*font-size*/
 
 .sk-fs-100px{font-size: 6.25rem;}
@@ -5601,6 +5602,7 @@ a{
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 	
+	
 .sk-goals-mission-logo{
 
 	position: absolute;
@@ -5896,6 +5898,27 @@ a{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
+	.sk-popup-container-wrap{
+		display: grid !important;
+		grid-template-rows: 650px  !important;
+		grid-template-columns: 650px  !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.sk-popup-container{
+		
+		margin: auto;
+	}
+	.sk-pop-lft-blk{
+		margin-left: 0 !important;
+	}
+	.sk-pop-right-blk{
+		margin-right: 0 !important;
+		border-bottom-left-radius: 0px !important;
+		border-top-left-radius: 0px !important;
+	
+	}
+	
 		
 .sk-goals-mission-logo{
 
@@ -5948,11 +5971,7 @@ a{
 	line-height: 1.6rem !important;
 
 }
-	.sk-form-wrap{
-		display: grid;
-		grid-template-columns: 1fr  !important;
-		
-	}
+
 	.sk-footer-social-icons{
 		display: block ;
 	} 
@@ -6244,6 +6263,27 @@ a{
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
+	.sk-popup-container-wrap{
+		display: grid !important;
+		grid-template-rows: 460px  !important;
+		grid-template-columns: 460px  !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.sk-popup-container{
+		
+		margin: auto;
+	}
+	.sk-pop-lft-blk{
+		margin-left: 0 !important;
+		margin-top: 100px !important;
+	}
+	.sk-pop-right-blk{
+		margin-right: 0 !important;
+		border-bottom-left-radius: 0px !important;
+		border-top-left-radius: 0px !important;
+		margin-top: 100px !important;
+	}
 		
 .sk-goals-mission-logo{
 
@@ -6312,11 +6352,7 @@ a{
 		cursor: pointer;
 		z-index: 999 !important;
 	}
-	.sk-form-wrap{
-		display: grid;
-		grid-template-columns: 1fr  !important;
-		grid-gap: 10px;
-	}
+	
 	.sk-service-logo{
 		width: 60px !important;
 	}
@@ -6660,6 +6696,34 @@ border-bottom-left-radius: none !important;
 	}
 }
 @media only screen and (max-width: 480px){
+	.sk-popup-container-wrap{
+		display: grid !important;
+		grid-template-rows: 340px  !important;
+		grid-template-columns: 340px  !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.sk-popup-container{
+		
+		margin: auto;
+	}
+	.sk-pop-lft-blk{
+		margin-left: 0 !important;
+		margin-top: 180px !important;
+	}
+	.sk-pop-right-blk{
+		margin-right: 0 !important;
+		border-bottom-left-radius: 0px !important;
+		border-top-left-radius: 0px !important;
+		margin-top: 170px !important;
+	
+	}
+
+	.map-img{
+		width: 150px !important;
+		height: 150px !important;
+		border-radius: 6px;
+	}
 			
 .sk-goals-mission-logo{
 
@@ -6760,11 +6824,7 @@ border-bottom-left-radius: none !important;
 	.sk-cnt-forms {
 		padding-top: 60px !important;
 	}
-	.sk-form-wrap{
-		display: grid;
-		grid-template-columns: 1fr  !important;
-		
-	}
+	
 	.sk-service-logo{
 		width: 60px !important;
 	}
@@ -7267,11 +7327,7 @@ padding-bottom: 3.5rem !important;
 	grid-template-columns: 340px 2fr ;
 }
 
-.sk-form-wrap{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10px;
-}
+
 .sk-cnt-header{
 	text-align: left ;
 	max-width:280px ;
@@ -7290,7 +7346,7 @@ padding-bottom: 3.5rem !important;
 }
 
 .sk-txt-area{
-	width: 90% !important;
+	width: 100% !important;
 }
 .sk-bdr-left{ border-top-left-radius: 13px;}
 .sk-bdr-right{ border-bottom-left-radius: 13px;}
@@ -7366,7 +7422,8 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	height: 150px;
 }
 .map-img{
-	width: 288px;
+	width: 350px;
+	height: 250px;
 	border-radius: 6px;
 }
 .sk-logo{
@@ -7374,3 +7431,19 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 }
 
 .sk-rotate-hvr:hover{transform: rotate(360deg); transition: .4s;}
+
+.sk-popup-container-wrap{
+	display: grid ;
+	grid-template-columns: 500px 500px ;
+}
+.sk-popup-container .close-btn{
+	position: absolute;
+	right:20px;
+	top: 20px;
+	color: white;
+}
+.sk-pop-right-blk{
+
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
