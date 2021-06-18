@@ -6784,23 +6784,24 @@ border-bottom-left-radius: none !important;
 		line-height: 1.2rem !important;
 	}
 	.sk-functions-header {
-		font-size: 2.2rem !important;
-		line-height: 2.8rem !important;
+		font-size: 2rem !important;
+		line-height: 2.6rem !important;
 		text-align: center !important;
 		margin-top: 3.5rem !important;
+		padding-bottom: 2.5rem !important;
 	}
 	.sk-services-header {
-		font-size: 2.2rem !important;
-		line-height: 2.8rem !important;
+		font-size: 2rem !important;
+		line-height: 2.6rem !important;
 	}
 	.sk-about-header {
-		font-size: 2.2rem !important;
-		line-height: 2.8rem !important;
+		font-size: 2rem !important;
+		line-height: 2.6rem !important;
 		text-align: center !important;
 	}
 	.sk-team-header {
-		font-size: 2.2rem !important;
-		line-height: 2.8rem !important;
+		font-size: 2rem !important;
+		line-height: 2.6rem !important;
 	}
 	.sk-team-content{
 		font-size: 1rem !important;
@@ -6815,8 +6816,8 @@ border-bottom-left-radius: none !important;
 		line-height: 1.6rem !important;
 	}
 	.sk-function-desc{
-		font-size: 1.2rem !important;
-		line-height: 1.8rem !important;
+		font-size: 1rem !important;
+		line-height: 1.6rem !important;
 	}
 	.sk-cnt-btns{
 		margin-right:0 !important;
@@ -6881,7 +6882,7 @@ border-bottom-left-radius: none !important;
 		padding-top: 3rem !important;
 	}
 	.sk-xchange-img{
-		width: 150px !important;
+		width: 100px !important;
 	}
 	.sk-function-content{
 		margin-bottom: 3.5rem!important;
@@ -7148,11 +7149,11 @@ border-bottom-left-radius: none !important;
 	  max-width: 100% !important;
   }
   .sk-function-img{
-	  width: 150px !important;
-	  height: 150px !important;
+	  width: 100px !important;
+	  height: 100px !important;
   }
   .sk-service-img{
-	  width: 60px !important;
+	  width: 40px !important;
 	 
   }
   .sk-footer-social-icons {
@@ -7216,7 +7217,7 @@ padding-bottom: 3.5rem !important;
 /*other*/
 
 .sk-xchange-img{
-	width: 150px !important;
+	width: 150px ;
 }
 .line{
 	position: absolute;
