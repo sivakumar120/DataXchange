@@ -79,6 +79,9 @@ textarea {
         font-size: 14px !important; 
         line-height: 20px !important; 
     }   
+	.carousel{
+      top: 85px ;
+	}
 }
 
 
@@ -5476,6 +5479,9 @@ a{
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1600px){
+	.sk-carousel-content-header{
+		margin-bottom: 1rem !important;
+	}
 	.sk-body-wrap{
 		flex-direction: column !important;
 		justify-content: center;
@@ -5602,6 +5608,25 @@ a{
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 	
+	.sk-contact-modal, .sk-popup-container{
+		width: 800px !important;
+		
+	}
+	.sk-popup-container-wrap{
+		display: grid ;
+		grid-template-columns: 400px 400px !important;
+	}
+	.map-img{
+		width: 200px !important;
+		height: 150px !important;
+		border-radius: 6px;
+	}
+	.sk-pop-lft-blk{
+	   padding: 2rem !important;
+	}
+	.sk-pop-right-blk{
+		padding: 2rem !important;
+	}
 	
 .sk-goals-mission-logo{
 
@@ -5793,8 +5818,9 @@ a{
 	}
 .sk-carousel-content-header{
 	font-size: 4rem !important;
-	line-height: 4.6rem !important;
+	line-height: 3.8rem !important;
 	max-width: 500px !important;
+	margin-bottom: 1rem !important;
 }
 .sk-carousel-content-desc{
 	font-size: 20px !important;
@@ -5806,7 +5832,7 @@ a{
 	bottom: 20px !important;
 }	
 .sk-team-card{
-   flex-basis: 40%;
+   flex-basis: 33%;
 }
 .sk-contact-wrapper{
 	flex-direction: column;
@@ -5898,27 +5924,28 @@ a{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
-	.sk-popup-container-wrap{
-		display: grid !important;
-		grid-template-rows: 650px  !important;
-		grid-template-columns: 650px  !important;
-		justify-content: center;
-		align-items: center;
-	}
-	.sk-popup-container{
+	.sk-contact-modal, .sk-popup-container{
+		width: 750px !important;
 		
-		margin: auto;
+	}
+	.sk-popup-container-wrap{
+		display: grid ;
+		grid-template-columns: 375px 375px !important;
+	}
+	.map-img{
+		width: 200px !important;
+		height: 150px !important;
+		border-radius: 6px;
 	}
 	.sk-pop-lft-blk{
-		margin-left: 0 !important;
+	   padding: 2rem !important;
 	}
 	.sk-pop-right-blk{
-		margin-right: 0 !important;
-		border-bottom-left-radius: 0px !important;
-		border-top-left-radius: 0px !important;
-	
+		padding: 2rem !important;
 	}
-	
+	.sk-xchange-blk {
+		margin-top: 20px ;
+	}
 		
 .sk-goals-mission-logo{
 
@@ -6121,7 +6148,7 @@ a{
 }
 	
 .sk-team-card{
-	flex-basis: 37%;
+	flex-basis: 36%;
 }
 .sk-contact-wrapper{
 	flex-direction: column;
@@ -6263,26 +6290,25 @@ a{
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
-	.sk-popup-container-wrap{
-		display: grid !important;
-		grid-template-rows: 460px  !important;
-		grid-template-columns: 460px  !important;
-		justify-content: center;
-		align-items: center;
-	}
-	.sk-popup-container{
+	.sk-contact-modal, .sk-popup-container{
+		width: 480px !important;
+		margin: auto !important;
 		
-		margin: auto;
+	}
+	.sk-popup-container-wrap{
+		display: grid ;
+		grid-template-columns: 240px 240px !important;
+	}
+	.map-img{
+		width: 150px !important;
+		height: 150px !important;
+		border-radius: 6px;
 	}
 	.sk-pop-lft-blk{
-		margin-left: 0 !important;
-		margin-top: 100px !important;
+	   padding: 1.5rem !important;
 	}
 	.sk-pop-right-blk{
-		margin-right: 0 !important;
-		border-bottom-left-radius: 0px !important;
-		border-top-left-radius: 0px !important;
-		margin-top: 100px !important;
+		padding: 1.5rem !important;
 	}
 		
 .sk-goals-mission-logo{
@@ -6489,7 +6515,7 @@ a{
 	}
 	.sk-carousel-overlay{
 		position: absolute;
-		top: 18% !important;
+		top: 8% !important;
 		z-index: 10;
 	}
 	.sk-functions-header {
@@ -6696,33 +6722,29 @@ border-bottom-left-radius: none !important;
 	}
 }
 @media only screen and (max-width: 480px){
-	.sk-popup-container-wrap{
-		display: grid !important;
-		grid-template-rows: 340px  !important;
-		grid-template-columns: 340px  !important;
-		justify-content: center;
-		align-items: center;
-	}
-	.sk-popup-container{
+	.sk-contact-modal, .sk-popup-container{
+		width: 300px !important;
+		margin: auto !important;
 		
-		margin: auto;
+	}
+	.sk-popup-container-wrap{
+		display: grid ;
+		grid-template-columns: 150px 150px !important;
+	}
+	.map-img{
+		width: 100px !important;
+		height: 100px !important;
+		border-radius: 6px;
+	}
+	.sk-txt-area{
+		height:70px !important;
+		padding: 6px !important;
 	}
 	.sk-pop-lft-blk{
-		margin-left: 0 !important;
-		margin-top: 180px !important;
+	   padding: 1.5rem !important;
 	}
 	.sk-pop-right-blk{
-		margin-right: 0 !important;
-		border-bottom-left-radius: 0px !important;
-		border-top-left-radius: 0px !important;
-		margin-top: 170px !important;
-	
-	}
-
-	.map-img{
-		width: 150px !important;
-		height: 150px !important;
-		border-radius: 6px;
+		padding: 1.5rem !important;
 	}
 			
 .sk-goals-mission-logo{
@@ -6816,7 +6838,7 @@ border-bottom-left-radius: none !important;
 		line-height: 1.6rem !important;
 	}
 	.sk-function-desc{
-		font-size: 1rem !important;
+		font-size: 1.1rem !important;
 		line-height: 1.6rem !important;
 	}
 	.sk-cnt-btns{
@@ -6841,6 +6863,7 @@ border-bottom-left-radius: none !important;
 	}
 	.sk-service-header{
 		font-size: 1rem !important;
+		line-height: 1.2rem !important;
 	}
 	
 .gallery-item-3 {
@@ -7437,14 +7460,21 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	display: grid ;
 	grid-template-columns: 500px 500px ;
 }
-.sk-popup-container .close-btn{
-	position: absolute;
-	right:20px;
-	top: 20px;
-	color: white;
-}
+
 .sk-pop-right-blk{
 
 	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
 }
+
+
+.modal-content  {
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    border-radius: 10px ; 
+}
+.sk-popup-container.active{
+	display: block;
+}
+.sk-maxw-80per{max-width: 80%;}
+
