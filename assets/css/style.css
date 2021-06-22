@@ -7485,6 +7485,4 @@ input:focus::placeholder {
 textarea:focus::placeholder {
 	color: transparent;
   }
-input:focus {
-	border-bottom: 3px srgb(185, 180, 180) grey;
-  }
+
