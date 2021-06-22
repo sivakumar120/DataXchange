@@ -5496,6 +5496,7 @@ a{
 	}
 	 .sk-model-content{
 		 text-align: center !important;
+		 margin-top: 25px;
 	 } 
 
 	.sk-service-content{
@@ -7478,4 +7479,12 @@ body.modal-open { overflow:inherit; padding-right:inherit !important; }
 	display: block;
 }
 .sk-maxw-80per{max-width: 80%;}
-
+input:focus::placeholder {
+	color: transparent;
+  }
+textarea:focus::placeholder {
+	color: transparent;
+  }
+input:focus {
+	border-bottom: 3px srgb(185, 180, 180) grey;
+  }
