@@ -5261,6 +5261,7 @@ textarea {
 .sk-mb-127px{margin-bottom: 7.9rem;}
 .sk-mt-200px-neg{margin-top: -200px;}
 .sk-mt-140px-neg{margin-top: -140px;}
+.sk-mt-107px-neg{margin-top: -107px;}
 .sk-mt-155px-neg{margin-top: -155px;}
 .sk-mt-180px-neg{margin-top: -180px;}
 .sk-mt-103px{margin-top: 103px;}
@@ -5473,9 +5474,9 @@ a{
 
 .sk-about-bg{
 
-    background-image: url(/assets/img/data-banner-2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(/assets/img/data-bnr-7.png) ;
+    background-size: cover !important;
+  
     
 }
 
@@ -5848,7 +5849,7 @@ a{
 }
 
 .sk-goals{
-	margin-top: -150px;
+	margin-top: -103px;
 }
 .sk-team-header{
 	text-align: center;
@@ -6193,7 +6194,7 @@ a{
 	margin: 20px;
 }
 .sk-goals{
-	margin-top: -130px;
+	margin-top: -103px;
 }
 .sk-team-header{
 	text-align: center;
@@ -6633,11 +6634,9 @@ a{
 	margin: 20px;
 }
 .sk-goals{
-	margin-top: -130px;
+	margin-top: -90px;
 }
-.sk-goals{
-	margin-top: -100px;
-}
+
 
 .line{
 	position: absolute;
@@ -7120,7 +7119,7 @@ border-bottom-left-radius: none !important;
 	font-size: 10px !important;
 }
 .sk-goals{
-	margin-top: -80px;
+	margin-top: -60px;
 }
 .line{
 	position: absolute;
