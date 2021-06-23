@@ -37,7 +37,7 @@
                                     <a href="#about-us" class="g-m-12 g-fs-10 sk-links  g-lh-16 g-sm-m-10  sk-lato-semibold g-disp-inlblock sk-blue-clr2 g-cursor-pointer">About us</a>
                                 </li>
                                 <li class="g-list-type sk-align-self">
-                                   <a href=""   class="sk-cnt-btns  g-ml-10  g-fs-10 g-mr-10  g-lh-16 g-disp-inlblock g-pt-05 g-pb-06  g-pl-15 g-pr-15 g-cursor-pointer sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px sk-hvr sk-focus" data-toggle="modal"  data-target="#contactModal">Contact us</a>
+                                   <a href=""   class="sk-cnt-btns  g-ml-10  g-fs-10 g-mr-10  g-lh-16 g-disp-inlblock g-pt-05 g-pb-06  g-pl-15 g-pr-15 g-cursor-pointer sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px sk-hvr " data-toggle="modal"  data-target="#contactModal">Contact us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -509,7 +509,7 @@
                      </div>
                       <div class="sk-contact-content-3 g-pt-06 g-fs-10 g-black-clr g-lh-17 sk-lato-bold">
                          We are here to help and support our clients to do so. If you are looking into the value of data, we would love to hear from you<br>
-                            <a href="#" data-toggle="modal"  data-target="#contactModal" class="g-fs-15 g-disp-inlblock g-mt-10  g-pl-18 g-pr-28  g-w-180px g-outline-none g-pt-06 g-pb-06 g-disp-inlblock sk-red-bg g-cursor-pointer g-lh-20 sk-lato-regular g-white-clr sk-bdr-1 g-bdrrad-3px">
+                            <a href="#" data-toggle="modal"  data-target="#contactModal" class=" g-fs-10 g-mt-10  g-lh-16 g-disp-inlblock g-pt-05 g-pb-06  g-pl-15 g-pr-15 g-cursor-pointer sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px  sk-hvr ">
                                 Let's talk!
                             </a>
                       </div>
@@ -582,7 +582,7 @@
                            <div class="g-fs-16 g-sm-fs-10 g-xs-fs-09 g-sm-lh-14 g-xs-fs-12  g-lh-22  sk-lato-bold sk-red-clr">
                                Get in Touch
                            </div>
-                           <form>
+                           <form class="contact_us">
                                <div class="sk-form-wrap   ">
                                        <div class="g-pt-20 g-pb-10">
                                            <input type="name" name="fullname" id="fullname" placeholder="Full name"  class="sk-bdr-3 g-outline-none  g-w-100per sk-blue-clr g-fs-12 g-sm-fs-08 g-xs-fs-06  sk-lato-regular" required>
@@ -593,7 +593,7 @@
                                </div>
                                <textarea name="" id="" placeholder="your message to us!"  class=" sk-blue-clr g-sm-h-100px g-xs-h-50px g-fs-12 g-sm-fs-08 g-xs-fs-06  sk-lato-regular g-p-10 g-sm-p-06 g-bdrrad-10px sk-bdr-5 sk-txt-area g-outline-none" rows="7" cols="40" ></textarea>
                                <div class=" sk-txt-right">
-                                   <button type="submit" class=" g-fs-10 g-sm-fs-09 g-xs-fs-06  g-lh-16 g-white-bg g-pt-03 g-pb-03 g-mt-15 g-xs-mt-03   g-pl-20 g-pr-20 g-cursor-pointer sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px sk-hvr sk-focus">Send</button>
+                                   <button type="submit" class="g-fs-10 g-mt-10  g-lh-16 g-disp-inlblock g-pt-05 g-pb-06  g-pl-15 g-pr-15 g-cursor-pointer g-white-bg sk-lato-semibold sk-red-clr sk-bdr-1 g-bdrrad-6px  sk-hvr">Send</button>
                                </div>
                            </form>
                            </div>
@@ -625,7 +625,11 @@
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
       <script src="./assets/vanilla-js-carousel-master/carousel.js"></script>
  <script>
-  
+    
+     const form = document.querySelector('.contact_us')
+     form.addEventListener('submit',function(){
+         alert('Thank you we will reach out to you')
+     })
    
      /*menu*/
      const hamburger = document.querySelector('.sk-hamburger');

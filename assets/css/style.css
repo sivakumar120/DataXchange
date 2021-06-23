@@ -5297,7 +5297,7 @@ textarea {
 .sk-bdrrad-4{border-radius:0 13px 13px 0;}
 
 /*hover*/
-.sk-hvr:hover,.sk-focus:focus{border: 1px solid #C9203F; color: white !important; background-color: #C9203F !important;}
+.sk-hvr:hover,.sk-focus:focus,.sk-active:active{border: 1px solid #C9203F; color: white !important; background-color: #C9203F !important;}
 
 .sk-lh-110px{line-height: 6.8rem;}
 /* float */
