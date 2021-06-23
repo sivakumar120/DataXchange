@@ -259,7 +259,7 @@
            <div class="gallery-container">
             <div class="g-white-bg gallery-item g-pr-37 g-pl-37 g-pt-28 g-pb-28 sk-text-center g-bdrrad-10px">
                 <img src="./assets/img/svg/data-AI.svg" class="sk-w-92px sk-service-logo" alt="">
-                <div class="g-black-clr sk-service-header sk-lato-bold g-pt-10 g-fs-15 g-lh-21">
+                <div class="g-black-clr sk-service-header sk-lato-bold g-pt-10 g-fs-15 g-lh-14">
                     Data sets sourcing for AI algorithms
                 </div>
                 <div class="g-fs-12 sk-service-content g-lh-18 sk-lato-regular g-black-clr">
@@ -296,7 +296,7 @@
             <div class="g-white-bg gallery-item g-pr-37 g-pl-37 g-pt-28 g-pb-28 sk-text-center g-bdrrad-10px">
                 <img src="./assets/img/svg/data-dashboard.svg" class="sk-w-92px sk-service-logo" alt="">
                 <div class="g-fs-12  sk-service-content g-pt-10 g-lh-18 sk-lato-regular g-black-clr">
-                  <span class="g-fs-15 g-xs-fs-10  g-lh-21 sk-lato-bold g-black-clr">Reports and dashboards  on specific KPIs defined with our clients</span>
+                  <span class="g-fs-15 sk-service-header   g-lh-12 sk-lato-bold g-black-clr">Reports and dashboards  on specific KPIs defined with our clients</span>
                   <div class="g-fs-12 sk-service-content g-lh-18 sk-lato-regular g-black-clr">
                     extraction of the key information out of the data collected and visualization of these insights for data driven decision making.
                 </div> 
@@ -612,9 +612,26 @@
                  </div>
             </div>
           </div>
+          
       
         </div>
       </div>
+      <div class="modal fade" role="dialog" id="modalInfo">
+        <div class="modal-dialog"> 
+               <div class="modal-content g-orange2-bg g-white-clr g-bdr-0 g-bdrrad-5px">
+                       <div class="modal-body text-center">
+                           <div class="row">
+                               <div class="col-xs-10">
+                                   <div id="modalInfoTitle" class="g-fs-10">processing. please wait...</div>
+                               </div>
+                               <div class="col-xs-2">
+                                   <span class="g-cursor-pointer" data-dismiss="modal">&times;</span>
+                               </div>
+                           </div>
+                       </div>
+               </div>
+         </div>
+       </div>
 
       
  
@@ -626,9 +643,9 @@
       <script src="./assets/vanilla-js-carousel-master/carousel.js"></script>
  <script>
     
-     const form = document.querySelector('.contact_us')
-     form.addEventListener('submit',function(){
-         alert('Thank you we will reach out to you')
+    const forms = document.querySelector('.contact_us')
+     forms.addEventListener('submit',function(){
+         alert('Thanks for submitting your details to us. we will reach out to you shortly')
      })
    
      /*menu*/
@@ -643,6 +660,7 @@ $(document).ready(function(){
     // manually triggering the next button for galley carousel
     $('.gallery-controls-next').click();
 });
+
 
 
 
