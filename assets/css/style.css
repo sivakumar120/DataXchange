@@ -5481,6 +5481,14 @@ a{
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1600px){
+	
+	.swiper-slide {
+		background-position: center;
+		background-size: cover;
+		width: 320px;
+		height: 400px;
+		box-shadow:  0px 3px 21px #00000029;
+	  }
 	.sk-carousel-content-header{
 		margin-bottom: 1rem !important;
 	}
@@ -7485,3 +7493,28 @@ textarea:focus::placeholder {
 	color: transparent;
   }
 
+
+  .swiper-container {
+	width: 1366px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 320px;
+	height: 400px;
+	box-shadow:  0px 3px 21px #00000029;
+  }
+
+  .swiper-container-3d .swiper-slide-shadow-left{
+	  background-image: none;
+  }
+  .swiper-container-3d .swiper-slide-shadow-right{
+	  background-image: none;
+  }
+
+  .sk-card-wrapper{
+	  height: 400px;
+  }
