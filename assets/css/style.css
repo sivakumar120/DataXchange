@@ -107,6 +107,7 @@ textarea {
 .g-w-20px{ width: 20px !important; }
 .g-w-30px{ width: 30px !important; }
 .g-w-40px{ width: 40px !important; }
+.g-w-50px{ width: 50px !important; }
 .g-w-60px{ width: 60px !important; }
 .g-w-80px{ width: 80px !important; }
 .g-w-100px{ width: 100px !important; }
@@ -5188,6 +5189,7 @@ textarea {
 .sk-orange-clr{color: #F0AE1D !important;}
 .sk-orange-clr1{color: #FFC000 !important;}
 .sk-red-clr{color: #C9203F!important;}
+.sk-red-clr1{color: #D2042D!important;}
 
 /*background*/
 
@@ -5520,16 +5522,16 @@ a{
 		margin-left: 2rem !important;
 	}
 	.sk-values {
-		margin: 1.5rem !important;
-		width: 150px !important;
+		margin: 2rem !important;
+		width: 115px !important;
 	}
 	.sk-values img {
 	
-		width: 150px !important;
+		width: 100px !important;
 	}
 	.sk-values-content-1,.sk-values-content-2,.sk-values-content-3,.sk-values-content-4,.sk-values-content-5,.sk-values-content-6{
-		font-size: 18px !important;
-		line-height: 24px !important;
+		font-size: 12px !important;
+		line-height: 16px !important;
 	}
 .sk-carousel-content-header{
 	font-size: 4.3rem !important;
@@ -5760,15 +5762,18 @@ a{
 	}
 	
 	.sk-values img{
-		width: 140px !important;
+		width: 100px !important;
 	}
 	.sk-values {
-		margin: 1.5rem !important;
-		width: 140px !important;
+		margin-top: 2.5rem !important;
+		margin-right: 2.5rem !important;
+		margin-bottom: 2.5rem !important;
+		margin-left: 1.5rem !important;
+		width: 80px !important;
 	}
 	.sk-values span {
-		font-size: 1rem !important;
-		 line-height: 1.5rem !important;
+		font-size: 0.8rem !important;
+		 line-height: 1.2rem !important;
 	}
 	.sk-values-content-1{
 		position: absolute;
@@ -6059,16 +6064,19 @@ a{
 		text-align: center !important;
 	}
 	
+	.sk-value-box{
+		width: 70% !important;
+	}
 	.sk-values img{
-		width: 100px !important;
+		width: 90px !important;
 	}
 	.sk-values {
-		margin: 2rem !important;
-		width: 100px !important;
+		margin: 2.5rem !important;
+		width: 75px !important;
 	}
 	.sk-values span {
-		font-size: 0.8rem !important;
-		 line-height: 1.3rem !important;
+		font-size: 0.6rem !important;
+		 line-height: 1rem !important;
 	}
 	.sk-values-content-1{
 		position: absolute;
@@ -6306,6 +6314,7 @@ a{
 		margin: auto !important;
 		
 	}
+
 	.sk-popup-container-wrap{
 		display: grid ;
 		grid-template-columns: 240px 240px !important;
@@ -6478,19 +6487,19 @@ a{
 	}
 	
 	.sk-value-box{
-		width: 60% !important;
+		width: 80% !important;
 		margin: auto !important;
 	}
 	.sk-values {
-		margin: 1.5rem !important;
-		width: 70px !important;
+		margin: 2rem !important;
+		width: 100px !important;
 	}
 	.sk-values-content-1,.sk-values-content-2,.sk-values-content-3,.sk-values-content-4,.sk-values-content-5,.sk-values-content-6{
 		font-size: 10px !important;
 		line-height: 16px !important;
 	}
 	.sk-values img{
-		width: 70px !important;
+		width: 100px !important;
 	}
 
 	.sk-vision-model-container{
@@ -6735,6 +6744,9 @@ border-bottom-left-radius: none !important;
 		width: 300px !important;
 		margin: auto !important;
 		
+	}
+	.sk-resp-carousel{
+		display: block !important;
 	}
 	.sk-popup-container-wrap{
 		display: grid ;
@@ -7310,13 +7322,6 @@ padding-bottom: 3.5rem !important;
 	  background-size: contain;
   }
 
-  .sk-model-content-1{
-
-	background: url(/assets/img/data-vision-bg.png)!important;
-	background-repeat: no-repeat !important;
-	background-size: cover !important;
-	background-position:  right 50%  !important;
-  }
 
   .sk-close{
 	  position: absolute;
@@ -7495,7 +7500,8 @@ textarea:focus::placeholder {
 
 
   .swiper-container {
-	width: 1366px;
+	width: 65%;
+	margin: auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
   }
@@ -7518,3 +7524,4 @@ textarea:focus::placeholder {
   .sk-card-wrapper{
 	  height: 400px;
   }
+ 
